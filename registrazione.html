@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione su Rafmusic</title>
+</head>
+<body background="musica.jpg">
+    <img src="logo.png" alt="Logo di Rafmusic">
+    <h2 style="color:greenyellow;">Registrati subito!</h2>
+        <div style="text-align: center">
+            <h3 style="color:greenyellow">Inserisci qui i tuoi dati!</h3>
+            <div style="color:greenyellow">
+            <form onsubmit="alert('Registrazione avvenuta correttamente')">
+            <div>
+                <input type="text" placeholder="Inserisci il tuo nome">
+            </div>
+            <div>
+                <input type="text" placeholder="Inserisci il tuo cognome">
+            </div>
+            <div>
+                <input type="email" placeholder="Inserisci la tua email">
+            </div>
+            <div>
+                <input type="password" placeholder="Scegli la tua password" pattern="[0-9a-z]{8,}">
+            </div>
+            <div>
+                <input type="tel" placeholder="Il tuo numero di telefono" pattern="[0-9]{8,12}">
+            </div>
+            <div>
+                <label> Data di nascita: <input type="date">
+                </label>    
+            </div>
+            <div>
+                <p>Seleziona i tuoi gusti musicali:
+                </p>
+                <input type="checkbox"> <label> CLASSICA</label>
+                <input type="checkbox"> <label> POP</label>
+                <input type="checkbox"> <label> ROCK</label>
+                <input type="checkbox"> <label> INDIE</label>
+                <input type="checkbox"> <label> METAL</label>
+                <input type="checkbox"> <label> HOUSE</label>
+                <input type="checkbox"> <label> FOLK</label>
+            </div>
+            <button type="submit">REGISTRATI!</button>
+            <div style="text-align:justify">
+                <i>
+                <input type="radio"><label>Dichiaro di accettare termini e condizioni di utilizzo della piattaforma</label>
+            </i>
+            </div>    
+            </form>
+            </div>
+        </div>
+</body>
+</html>
